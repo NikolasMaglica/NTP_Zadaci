@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Primjer HTML5 stranice">
-    <meta name="keywords" content="HTML, primjer, stranica, web">
-    <meta name="author" content="Vaše ime">
-    <title>Primjer HTML5 Stranice</title>
+    <meta name="keywords" content="">
+    <meta name="author" content="Nikolas Maglica">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Povezivanje s CSS datotekom -->
 </head>
 <body>
-    <h1>Dobrodošli na Moj Blog</h1>
+    <header>
+        <img src="slike/ai.jfif" alt="Banner slika" class="banner"> <!-- Slika iz mape 'slike' -->
+        <h1>Dobrodošli na Moj Blog</h1>
+        <nav>
+            <a href="#home">Početna stranica</a>
+            <a href="#news">Novosti</a>
+            <a href="#contact">Kontakt</a>
+            <a href="#about">O nama</a>
+            <a href="#gallery">Galerija</a>
+        </nav>
+    </header>
+
     <h2>Ovaj blog posvećen je tehnologiji</h2>
     
     <p>U današnje vrijeme tehnologija igra ključnu ulogu u našem svakodnevnom životu. Od pametnih telefona do umjetne inteligencije, tehnologija neprestano oblikuje način na koji komuniciramo, radimo i učimo. Kroz ovaj blog istražit ćemo najnovije trendove i inovacije u tehnološkom svijetu.</p>
